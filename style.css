@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+
+.header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+}
+.header_inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav {
+  font-size: 14px;
+  text-transform: uppercase;
+  
+}
+
+.nav_link {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 15px;
+  color: #fff;
+  text-decoration: none;
+  text-decoration: .2s linear;
+
+}
+.nav_link:hover {
+  color:green;
+}
+
+
+
+section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://images.hdqwalls.com/wallpapers/abstract-simple-background-4k-lp.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.wrapper 
+
+.title {
+  font-size: 92px;
+  font-weight: 500;
+  text-align: center;
+  margin: 10px 0 50px;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  user-select: none;
+}
+
+.search {
+  margin: 0 auto;
+  width: 600px;
+  height: 40px;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.input_search {
+  
+  width: 100%;
+  background: none;
+  padding: 10px 30px;
+  outline: none;
+  border: none;
+}
+
+.box {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card {
+  width: 130px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.8s;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 0 5px;
+} 
+
+.card:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.box_image {
+  padding: 10px;  
+  background-color: #fff;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+
+.box_title {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #fff;
+  font-family: 'Poppins', sans-serif ;
+
+}
